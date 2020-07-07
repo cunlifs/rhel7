@@ -1,3 +1,3 @@
-FROM koji/image-build
+FROM registry.redhat.io/rhel7-atomic
 
-CMD ["/bin/bash"]
+CMD sleep 6000
